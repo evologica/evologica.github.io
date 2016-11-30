@@ -52,14 +52,14 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                    <li>
+                        <a class="page-scroll" href="#services">Features</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li> -->
+                        <a class="page-scroll" href="#about">Workflow</a>
+                    </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                      <a class="page-scroll" href="#portfolio">Tools</a>
                     </li>
                     <!-- <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -75,159 +75,91 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Curio framework</div>
-                <div class="intro-heading">A model driven application</div>
-                <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
+    <header class="jumbotron">
+      <div class="container">
+          <div class="intro-text">
+              <div class="intro-lead-in">Curio framework</div>
+              <div class="intro-heading">Model driven development framework for enterprise backend services</div>
+              <p>The model is the <i class="fa fa-heart text-primary"></i> of your business, not just its docs.</p>
+              <p>Assure your requirements makes it to the production version.</p>
+              <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+          </div>
+      </div>
     </header>
 
+
     <!-- Services Section -->
-    <!-- <section id="services">
+    <section id="services" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Features</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Arquitetura Orientada a Caso de Uso</h4>
+                    <p class="text-muted">Caso de uso como entidade básica, da modelagem à execução.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Arquitetura Orientada a Modelos</h4>
+                    <p class="text-muted">O comportamento  estático e dinâmico é capturado em modelos que são utilizados na execução de cada caso de uso.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-sitemap fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Modelagem Orientada a Objeto</h4>
+                    <p class="text-muted">Cada caso de uso do sistema é detectado, modelado  e implementado segundo a técnica de modelagem orientada a Objeto e UML.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-file fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Linguagem para Consulta de Objetos (OQL)</h4>
+                    <p class="text-muted">Implementamos um subset da linguagem OQL definida pela ODMG. Isso permite a realização de casos de uso 100% orientado a objetos.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Curió StarUML Plug-in</h4>
+                    <p class="text-muted">Personaliza a ferramenta de modelagem StarUML  adequando-a às necessidades MDA necessárias ao framework .</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Arquitetura Multiplataforma/ MultiDB</h4>
+                    <p class="text-muted">Não ficamos presos a uma plataforma específica. Podemos dispor da plataforma/DB que se apresentar como a melhor para o domínio do problema colocado.</p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- Portfolio Grid Section -->
-    <!-- <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Workflow</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
                 </div>
             </div>
             <div class="row">
@@ -239,22 +171,22 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>Modelling</h4>
+                                    <!-- <h4 class="subheading">An Agency is Born</h4> -->
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/implementing.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>IMPLEMENTING</h4>
+                                    <!-- <h4 class="subheading">An Agency is Born</h4> -->
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -263,19 +195,19 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/running.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>RUNNING</h4>
+                                    <!-- <h4 class="subheading">Transition to Full Service</h4> -->
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <!-- <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
                             </div>
@@ -295,11 +227,81 @@
                                     <br>Of Our
                                     <br>Story!</h4>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Tools</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 portfolio-item">
+            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/server.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Curió SERVER</h4>
+              <p class="text-muted">Processadores:  x86, x64, ARM e AArch64; e SO: Windows, Linux, FreeBSD, Mac OS X, iOS, Android, entre outros.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 portfolio-item">
+            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/health.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Curió HEALTH</h4>
+              <p class="text-muted">Ferramenta para monitoramento centralizado dos servidores de caso de uso. Acompanhar e gerenciar a utilização de recursos no tempo.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 portfolio-item">
+            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/folder.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Curió DIRECTORY </h4>
+              <p class="text-muted">Repositório central de casos de uso responsável pela autenticação e autorização de acesso aos casos de uso.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 portfolio-item">
+            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/gauge.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Curió SISMON</h4>
+              <p class="text-muted">Ferramenta de monitoramento que permite acompanhar a troca de mensagens entre o cliente e o servidor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Team Section -->
@@ -446,7 +448,7 @@
                     <span class="copyright">Copyright &copy; Your Website 2016</span>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
+                    <!-- <ul class="list-inline social-buttons">
                         <li>
                           <a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -456,7 +458,7 @@
                         <li>
                           <a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">

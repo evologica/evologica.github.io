@@ -165,30 +165,34 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
-
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-color: $gray-darker !important;
+    background-image: url('../img/header.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    @include background-cover;
     text-align: center;
-    color: white;
+    margin: 0 !important;
+    color: white !important;
+    p {
+      font-weight: normal !important;
+    }
+    @include background-cover;
     .intro-text {
         padding-top: 100px;
-        padding-bottom: 50px;
         .intro-lead-in {
-            @include serif-font;
-            font-style: italic;
-            font-size: 22px;
-            line-height: 22px;
-            margin-bottom: 25px;
+          color: $theme-primary;
+          @include serif-font;
+          font-style: italic;
+          font-size: 30px;
+          line-height: 30px;
+          margin-bottom: 25px;
         }
         .intro-heading {
             @include heading-font;
             font-weight: 700;
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 18px;
+            line-height: 18px;
             margin-bottom: 25px;
         }
     }
@@ -197,8 +201,6 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
-            padding-bottom: 200px;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
@@ -209,8 +211,8 @@ header {
             .intro-heading {
                 @include heading-font;
                 font-weight: 700;
-                font-size: 75px;
-                line-height: 75px;
+                font-size: 24px;
+                line-height: 24px;
                 margin-bottom: 50px;
             }
         }
@@ -221,7 +223,7 @@ header {
 
 
 section {
-    padding: 100px 0;
+    padding: 30px 0;
     h2.section-heading {
         font-size: 40px;
         margin-top: 0;
@@ -240,11 +242,11 @@ section {
     }
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
+// @media(min-width:768px) {
+//     section {
+//         padding: 150px 0;
+//     }
+// }
 
 // Services Section
 
@@ -257,6 +259,9 @@ section {
 
 #portfolio {
     .portfolio-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
         margin: 0 0 15px;
         right: 0;
         .portfolio-link {
@@ -322,6 +327,7 @@ section {
     #portfolio {
         .portfolio-item {
             margin: 0 0 30px;
+            flex-direction: row;
         }
     }
 }
@@ -332,12 +338,13 @@ section {
     list-style: none;
     padding: 0;
     position: relative;
+    margin-top: 10px;
     &:before {
         top: 0;
-        bottom: 0;
+        bottom: 160px;
         position: absolute;
         content: "";
-        width: 2px;
+        width: 5px;
         background-color: #f1f1f1;
         left: 40px;
         margin-left: -1.5px;
